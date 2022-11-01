@@ -606,7 +606,10 @@ img {
 
 .show-scroll {
   visibility: visible;
-  bottom: 5rem;
+  bottom: 2rem;
+  right: 2rem;
+  border: solid var(--text-accent) 2px;
+  /* color: solid var(--text-accent) 2px;; */
 }
 
 /*========== MEDIA QUERIES ==========*/
