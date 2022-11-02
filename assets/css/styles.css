@@ -4,7 +4,6 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  
   /*========== Colors ==========*/
   --title-color: #0B0A0A;
   --text-color: #403A3A;
@@ -56,8 +55,6 @@ body.dark-theme {
   --container-color-alt: #181616;
   --body-color: #2B2B2B; 
   --text-accent: #6ed0ff;
-
-
 }
 
 /*========== Button Dark/Light ==========*/
@@ -549,11 +546,11 @@ img {
   gap: .25rem;
 }
 
-.certificate__decription,
+/* .certificate__decription, */
 /* .certificate__subtitle, */
-.references__subtitle {
+/* .references__subtitle { */
   /* color: var(--text-accent); */
-}
+/* } */
 
 .certificate__subtitle,
 .references__subtitle,

@@ -347,11 +347,17 @@
                             <a href="mailto:Max@smartmediamasters.nl">Max@smartmediamasters.nl</a>
                         </div>
                     </div>
+                    <div id="content"></div>
                 </section>
             </div>
         </div>
         </main>
-
+        
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+          document.getElementById('content').innerHTML =
+            marked.parse('# Marked in browser\n\nRendered by **marked**.');
+        </script>
         <!--========== SCROLL TOP ==========-->
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
