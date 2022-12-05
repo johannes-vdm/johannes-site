@@ -549,11 +549,11 @@ img {
   gap: .25rem;
 }
 
-.certificate__decription,
+/* .certificate__decription, */
 /* .certificate__subtitle, */
-.references__subtitle {
+/* .references__subtitle { */
   /* color: var(--text-accent); */
-}
+/* } */
 
 .certificate__subtitle,
 .references__subtitle,
