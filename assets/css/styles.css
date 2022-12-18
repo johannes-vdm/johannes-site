@@ -189,12 +189,22 @@ body.scale-cv {
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0;
   padding: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+}
+
+/* CLASS FOR BODY IN CV.HTML */
+.core{
+  /* margin: 0 0 var(--header-height) 0; */
+  /* padding: 0; */
+  /* font-family: var(--body-font); */
+  /* font-size: var(--normal-font-size); */
+  /* background-color: var(--body-color); */
+  /* color: var(--text-color); */
 }
 
 h1,h2,h3,p {
@@ -623,7 +633,7 @@ img {
 
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
-  body {
+  .core {
     margin: 3rem 0;
   }
 
