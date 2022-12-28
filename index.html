@@ -96,7 +96,9 @@
 
                     <!-- Theme change button -->
                     <i class="bx bx-moon change-theme" title="Dark/Light" id="theme-button"></i>
-                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    <a download="" href="assets/pdf/Johannes van der Merwe - CV.pdf" >
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </a>
                     <!-- <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i> -->
 
                     <!-- Button to generate and download the pdf. Available for desktop. -->
@@ -224,8 +226,6 @@
 
             <div class="resume__right">
 
-
-
                 <!--========== EXPERIENCE ==========-->
                 <section class="section section-top experience" id="experience">
                     <h2 class="section-title">Experience</h2>
@@ -268,17 +268,6 @@
                                     calendar data
                                     systems.
                                 </p>
-
-                                <!-- <ul>
-                                    <li>
-                                        Developing file security system with authentication for administrative users.
-                                    </li>
-                                    <li>
-                                        Developing complete Laravel CRUD systems with modular forms and calendar data
-                                        systems.
-                                    </li>
-                                </ul> -->
-                                <!-- </p> -->
                             </div>
                         </div>
                         <div class="experience__content">
@@ -348,29 +337,45 @@
 
                     <div class="references__container bd-grid">
                         <div class="references__content bd-grid">
-                            <p class="certificate__decription">
-                                Scaled Agile Inc
-                            </p>
-                            <h3 class="certificate__title"> <a target="blank"
-                                    href="https://www.credly.com/badges/0a34c114-e2c7-4be5-90e0-5921bd730052">Certified
-                                    SAFe® 5 Agilist</a>
-                                </h3>
-                                <p class="certificate__subtitle">
-                                    Issued, October 2022
-                                </p>
+                            <div class="certificate-container">
+                                <div class="credly-badge-container">
+                                    <img class="credly-badge" src="/assets/img/badges/certified-safe-5-agilist.png"
+                                        alt="Safe 5 Agilist Certificate Credly Badge" srcset="">
+                                </div>
+                                <div class="certificate-content-container">
+                                    <p class="certificate__decription">
+                                        Scaled Agile Inc
+                                    </p>
+                                    <h3 class="certificate__title"> <a target="blank"
+                                            href="https://www.credly.com/badges/0a34c114-e2c7-4be5-90e0-5921bd730052">
+                                            SAFe® 5 Agilist</a>
+                                    </h3>
+                                    <p class="certificate__subtitle">
+                                        Issued, October 2022
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div class="references__content bd-grid">
-                            <p class="certificate__decription">
-                                Amazon Web Services
-                            </p>
-                            <h3 class="certificate__title"> <a target="blank"
-                                    href="https://www.credly.com/badges/9c2a318d-8105-4cec-aa87-3f8130eeb73c/public_url">
-                                    Certified Cloud Practitioner</a>
-
-                            </h3>
-                            <p class="certificate__subtitle">
-                                Issued, October 2022
-                            </p>
+                            <div class="certificate-container">
+                                <div class="credly-badge-container">
+                                    <img class="credly-badge"
+                                        src="/assets/img/badges/aws-certified-cloud-practitioner.png"
+                                        alt="AWS Certified Cloud Practitioner Credly Badge">
+                                </div>
+                                <div class="certificate-content-container">
+                                    <p class="certificate__decription">
+                                        Amazon Web Services
+                                    </p>
+                                    <h3 class="certificate__title"> <a target="blank"
+                                            href="https://www.credly.com/badges/9c2a318d-8105-4cec-aa87-3f8130eeb73c/public_url">
+                                            Certified Cloud Practitioner</a>
+                                    </h3>
+                                    <p class="certificate__subtitle">
+                                        Issued, December 2022
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

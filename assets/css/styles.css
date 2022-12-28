@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  
+
   /*========== Colors ==========*/
   --title-color: #0B0A0A;
   --text-color: #403A3A;
@@ -40,7 +40,9 @@
 }
 
 /*========== BASE ==========*/
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -54,7 +56,7 @@ body.dark-theme {
   --text-color: #BFBFBF;
   --container-color: #212121;
   --container-color-alt: #181616;
-  --body-color: #2B2B2B; 
+  --body-color: #2B2B2B;
   --text-accent: #6ed0ff;
 
 
@@ -161,8 +163,8 @@ body.scale-cv {
 
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder {
-  width:8px;
-  height:8px;
+  width: 8px;
+  height: 8px;
   margin-left: 10%;
 }
 
@@ -185,13 +187,20 @@ body.scale-cv {
 .scale-cv .interests__container {
   column-gap: 2.5rem;
 }
+
 .scale-cv .pb-custom {
   padding-bottom: 1.1rem;
 }
 
-.scale-cv *{
-  line-height: 1.375;
+.scale-cv * {
+  line-height: 1.392;
 }
+
+.scale-cv .credly-badge {
+  width: 55px;
+  height: 55px;
+}
+
 
 body {
   margin: 0;
@@ -203,7 +212,7 @@ body {
 }
 
 /* CLASS FOR BODY IN CV.HTML */
-.core{
+.core {
   /* margin: 0 0 var(--header-height) 0; */
   /* padding: 0; */
   /* font-family: var(--body-font); */
@@ -212,11 +221,16 @@ body {
   /* color: var(--text-color); */
 }
 
-h1,h2,h3,p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -247,7 +261,7 @@ a:hover {
 }
 
 
-p{
+p {
   color: var(--title-color);
 
 }
@@ -297,12 +311,12 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0,0,0,.1);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
   transition: .3s;
 }
 
 /*========== NAV ==========*/
-.nav{
+.nav {
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -317,7 +331,7 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: .3s;
@@ -330,7 +344,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.nav__toggle{
+.nav__toggle {
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -449,7 +463,7 @@ img {
   color: var(--text-color);
 }
 
-.social__link:hover{
+.social__link:hover {
   color: var(--title-color);
 }
 
@@ -523,8 +537,7 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content,
 .languages__content,
-.interests_content
-{
+.interests_content {
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -534,17 +547,14 @@ img {
 
 .skills__name,
 .languages__name,
-.interests__name
-
-{
+.interests__name {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2);
 }
 
 .skills__circle,
-.interests__circle
-.languages__circle {
+.interests__circle .languages__circle {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -559,6 +569,28 @@ img {
   margin-bottom: var(--mb-1);
 }
 
+.credly-badge {
+  width: 60px;
+  height: 60px;
+}
+
+.credly-badge-container {
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+.certificate-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-container {
+  display: flex;
+  flex-direction: row;
+}
+
 /*========== REFERENCES ==========*/
 .references__content {
   gap: .25rem;
@@ -567,7 +599,7 @@ img {
 /* .certificate__decription, */
 /* .certificate__subtitle, */
 /* .references__subtitle { */
-  /* color: var(--text-accent); */
+/* color: var(--text-accent); */
 /* } */
 
 .certificate__subtitle,
