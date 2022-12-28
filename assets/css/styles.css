@@ -111,7 +111,8 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-  padding: 1.6rem 0 .80rem;
+  /* padding-bottom: 1.5rem; */
+  padding: 1.5rem 0;
 }
 
 .scale-cv .section-title {
@@ -186,6 +187,10 @@ body.scale-cv {
 }
 .scale-cv .pb-custom {
   padding-bottom: 1.1rem;
+}
+
+.scale-cv *{
+  line-height: 1.375;
 }
 
 body {
