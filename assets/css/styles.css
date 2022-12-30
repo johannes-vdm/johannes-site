@@ -266,9 +266,10 @@ p {
 
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+pre {
+  padding: 1rem;
+  background-color: var(--container-color-alt);
+  border-radius: 0.25rem;
 }
 
 /*========== CLASS CSS ==========*/
@@ -670,6 +671,11 @@ img {
 
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
+  #content{
+    grid-column: span 2;
+    padding: 1.5rem;
+  }
+
   .core {
     margin: 3rem 0;
   }
