@@ -4,3 +4,9 @@
 // Generate PDF:
 window.generateResume();
 ```
+
+
+# TODO 
+- [ ] Slim down html2pdf
+- [ ] Add project and achievements.
+- [ ] Auto lengthen when printing.

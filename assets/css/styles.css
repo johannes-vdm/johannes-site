@@ -146,7 +146,7 @@ body.scale-cv {
 
 .scale-cv .home__icon,
 .scale-cv .social__icon,
-.scale-cv .interests__icon {
+.scale-cv .hobbies__icon {
   font-size: 1rem;
 }
 
@@ -184,7 +184,7 @@ body.scale-cv {
   margin-bottom: var(--mb-1);
 }
 
-.scale-cv .interests__container {
+.scale-cv .hobbies__container {
   column-gap: 2.5rem;
 }
 
@@ -538,7 +538,7 @@ pre {
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content,
 .languages__content,
-.interests_content {
+.hobbies_content {
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -548,14 +548,14 @@ pre {
 
 .skills__name,
 .languages__name,
-.interests__name {
+.hobbies__name {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2);
 }
 
 .skills__circle,
-.interests__circle .languages__circle {
+.hobbies__circle .languages__circle {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -613,19 +613,19 @@ pre {
   font-size: var(--h3-font-size);
 }
 
-/*========== INTERESTS ==========*/
-/* .interests__container {
+/*========== HOBBIES ==========*/
+/* .hobbies__container {
   grid-template-columns: repeat(3, 1fr);
   margin-top: var(--mb-2);
 } 
 /* 
-.interests__content {
+.hobbies__content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.interests__icon {
+.hobbies__icon {
   font-size: 1.5rem;
   color: var(--text-accent);
   margin-bottom: .25rem;
