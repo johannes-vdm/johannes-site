@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /playlist
 Disallow: /cgi-bin/
 Sitemap: https://johannesmerwe.com/sitemap.xml
