@@ -10,3 +10,4 @@ window.generateResume();
 - [ ] Slim down html2pdf
 - [ ] Add project and achievements.
 - [ ] Auto lengthen when printing.
+- [ ] Convert to react/svelte/astro
