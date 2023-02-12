@@ -3,7 +3,7 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <!-- <link rel="preconnect" href="https://www.googletagmanager.com"> -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XHXYYYV28"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -12,12 +12,16 @@
 
         gtag('config', 'G-1XHXYYYV28');
     </script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+
     <!-- Icons -->
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    
+
     <!-- Code Highlight -->
     <link id="light-highlight" rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
@@ -82,37 +86,37 @@
                             </h1>
                             <div>
                                 <a download="" href="./assets/pdf/Johannes van der Merwe - CV.pdf"
-                                    class="home__button-movil">Download</a>
+                                    class="home__button-movil" aria-label="pdf-mobile">Download</a>
                             </div>
                         </div>
 
                         <div class="home__address bd-grid">
                             <span class="home__information">
                                 <i class="bx home__icon bx-envelope"></i>
-                                <a href="mailto:johannesmerwede@gmail.com">johannesmerwede@gmail.com</a>
+                                <a href="mailto:johannesmerwede@gmail.com"
+                                    aria-label="email">johannesmerwede@gmail.com</a>
                             </span>
-                            <!-- <span class="home__information">
-                                <i class="bx home__icon bx-phone"></i><i>Please request cell number</i>
-                            </span> -->
                             <span class="home__information">
                                 <i class="bx home__icon bx-map"></i>Johannesburg, South Africa
                             </span>
                             <span class="social__link">
                                 <i class="bx social__icon bxl-linkedin-square"></i>
                                 <a href="https://www.linkedin.com/in/johannes-van-der-merwe/" target="blank"
-                                    class="social__link">
+                                    class="social__link" aria-label="LinkedIn">
                                     LinkedIn
                                 </a>
                             </span>
                             <span class="social__link">
                                 <i class="bx social__icon bxl-github"></i>
-                                <a href="https://github.com/johannes-vdm" target="blank" class="social__link">
+                                <a href="https://github.com/johannes-vdm" target="blank" class="social__link"
+                                    aria-label="GitHub">
                                     GitHub
                                 </a>
                             </span>
                             <span class="social__link">
                                 <i class='bx social__icon bx-globe'></i>
-                                <a href="https://johannesmerwe.com/" target="blank" class="social__link">
+                                <a href="https://johannesmerwe.com/" target="blank" class="social__link"
+                                    aria-label="Website">
                                     johannesmerwe.com
                                 </a>
                             </span>
@@ -121,7 +125,7 @@
 
                     <!-- Theme change button -->
                     <i class="bx bx-moon change-theme" title="Dark/Light" id="theme-button"></i>
-                    <a download="" href="assets/pdf/Johannes van der Merwe - CV.pdf">
+                    <a download="" href="assets/pdf/Johannes van der Merwe - CV.pdf" aria-label="pdf">
                         <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
                     </a>
                 </section>
@@ -339,7 +343,7 @@
                                         Scaled Agile Inc
                                     </p>
                                     <h3 class="certificate__title">
-                                        <a target="blank"
+                                        <a target="blank" aria-label="credly-scaled-agile"
                                             href="https://www.credly.com/badges/0a34c114-e2c7-4be5-90e0-5921bd730052">
                                             SAFe® 5 Agilist
                                         </a>
@@ -362,7 +366,7 @@
                                         Amazon Web Services
                                     </p>
                                     <h3 class="certificate__title">
-                                        <a target="blank"
+                                        <a target="blank" aria-label="credly-aws-cloud-practitioner"
                                             href="https://www.credly.com/badges/9c2a318d-8105-4cec-aa87-3f8130eeb73c/public_url">
                                             Certified Cloud Practitioner
                                         </a>
@@ -384,22 +388,22 @@
                         <div class="references__content bd-grid">
                             <span class="references__subtitle">Managing Director</span>
                             <h3 class="references__title">Louis van Wyngaard</h3>
-                            <a href="mailto:louis@thinktank.co.za">Louis@thinktank.co.za</a>
+                            <a href="mailto:louis@thinktank.co.za" aria-label="ref-email">Louis@thinktank.co.za</a>
                         </div>
                         <div class="references__content bd-grid">
                             <span class="references__subtitle">Founding Director</span>
                             <h3 class="references__title">Max den Haan</h3>
-                            <a href="mailto:max@smartmediamasters.nl">Max@smartmedia.nl</a>
+                            <a href="mailto:max@smartmediamasters.nl" aria-label="ref-email">Max@smartmedia.nl</a>
                         </div>
                         <div class="references__content bd-grid">
                             <span class="references__subtitle">Project Manager</span>
                             <h3 class="references__title">Erika Wasserman</h3>
-                            <a href="mailto:erika@thinktank.co.za">Erika@thinktank.co.za</a>
+                            <a href="mailto:erika@thinktank.co.za" aria-label="ref-email">Erika@thinktank.co.za</a>
                         </div>
                         <div class="references__content bd-grid">
                             <span class="references__subtitle">Senior Software Engineer</span>
                             <h3 class="references__title">Mighty Vukeya</h3>
-                            <a href="mailto:mightyvukeya@gmail.com">MightyVukeya@gmail.com</a>
+                            <a href="mailto:mightyvukeya@gmail.com" aria-label="ref-email">MightyVukeya@gmail.com</a>
                         </div>
                     </div>
                 </section>
@@ -417,10 +421,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
+        <!-- TODO -->
         <!-- <script defer  src="./assets/js/markdownRead.js"></script> -->
-
-        <!--========== HTML2PDF ==========-->
-        <script defer  src="./assets/js/html2pdf.bundle.min.js"></script>
 
         <!--========== MAIN JS ==========-->
         <script src="./assets/js/main.js"></script>
