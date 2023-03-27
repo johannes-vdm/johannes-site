@@ -667,7 +667,7 @@ pre {
 
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
-  #content{
+  #content {
     grid-column: span 2;
     padding: 1.5rem;
   }
