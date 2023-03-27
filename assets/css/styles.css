@@ -1,7 +1,7 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /* Colors */
   --title-color: #0B0A0A;
   --text-color: #403A3A;
   /* --text-accent: black; */
@@ -12,7 +12,7 @@
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -21,21 +21,21 @@
   --small-font-size: .875rem;
   --smaller-font-size: .813rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-medium: 500;
   /* --font-semi-bold: 600; */
 
-  /*========== Margins ==========*/
+  /* Margins */
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
-  /*========== z index ==========*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== BASE ==========*/
+/* BASE */
 *,
 ::before,
 ::after {
@@ -46,7 +46,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme */
 body.dark-theme {
   --title-color: #F2F2F2;
   --text-color: #BFBFBF;
@@ -58,7 +58,7 @@ body.dark-theme {
 
 }
 
-/*========== Button Dark/Light ==========*/
+/* Button Dark/Light */
 .change-theme {
   position: absolute;
   right: 0;
@@ -73,7 +73,7 @@ body.dark-theme {
   color: var(--title-color);
 }
 
-/*========== Font size variables to scale cv ==========*/
+/* Font size variables to scale cv */
 body.scale-cv {
   --h1-font-size: .938rem;
   --h2-font-size: .938rem;
@@ -83,7 +83,7 @@ body.scale-cv {
   --smaller-font-size: .688rem;
 }
 
-/*========== Generate PDF button ==========*/
+/* Generate PDF button */
 .generate-pdf {
   display: none;
   position: absolute;
@@ -98,7 +98,7 @@ body.scale-cv {
   color: var(--title-color);
 }
 
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+/* Classes modified to reduce size and print on A4 sheet */
 .scale-cv .change-theme,
 .scale-cv .generate-pdf {
   display: none;
@@ -268,7 +268,7 @@ pre {
   border-radius: 0.25rem;
 }
 
-/*========== CLASS CSS ==========*/
+/* CLASS CSS */
 .section {
   padding: 1.5rem 0;
 }
@@ -287,7 +287,7 @@ pre {
   margin-bottom: var(--mb-2);
 }
 
-/*========== LAYOUT ==========*/
+/* LAYOUT */
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
@@ -312,7 +312,7 @@ pre {
   transition: .3s;
 }
 
-/*========== NAV ==========*/
+/* NAV */
 .nav {
   height: var(--header-height);
   display: flex;
@@ -384,7 +384,7 @@ pre {
   color: var(--title-color);
 }
 
-/*========== HOME ==========*/
+/* HOME */
 .home {
   position: relative;
 }
@@ -446,7 +446,7 @@ pre {
   color: var(--container-color);
 }
 
-/*========== SOCIAL ==========*/
+/* SOCIAL */
 .social__container {
   /* grid-template-columns: max-content; */
   grid-template-columns: repeat(2, 1fr);
@@ -469,12 +469,12 @@ pre {
   margin-right: .25rem;
 }
 
-/*========== PROFILE ==========*/
+/* PROFILE */
 .profile__description {
   text-align: center;
 }
 
-/*========== EDUCATION AND EXPERIENCE ==========*/
+/* EDUCATION AND EXPERIENCE */
 .education__content,
 .experience__content {
   display: flex;
@@ -531,7 +531,7 @@ pre {
   font-size: var(--small-font-size);
 }
 
-/*========== SKILLS AND LANGUAGES ==========*/
+/* SKILLS AND LANGUAGES */
 .skills__content,
 .languages__content,
 .hobbies_content {
@@ -560,7 +560,7 @@ pre {
   margin-right: .75rem;
 }
 
-/*========== CERTIFICATES ==========*/
+/* CERTIFICATES */
 .certificate__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
@@ -588,7 +588,7 @@ pre {
   flex-direction: row;
 }
 
-/*========== REFERENCES ==========*/
+/* REFERENCES */
 .references__content {
   gap: .25rem;
 }
@@ -609,7 +609,7 @@ pre {
   font-size: var(--h3-font-size);
 }
 
-/*========== HOBBIES ==========*/
+/* HOBBIES */
 /* .hobbies__container {
   grid-template-columns: repeat(3, 1fr);
   margin-top: var(--mb-2);
@@ -656,7 +656,7 @@ pre {
   /* color: solid var(--text-accent) 2px;; */
 }
 
-/*========== MEDIA QUERIES ==========*/
+/* MEDIA QUERIES */
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px) {
   .nav__list {
