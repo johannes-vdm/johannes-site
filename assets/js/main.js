@@ -102,7 +102,7 @@ window.generateResume = function () {
     let opt = {
         margin: 0,
         filename: 'Johannes van der Merwe - CV.pdf',
-        image: { type: 'jpeg', quality: 0.98 },
+        image: { type: 'jpeg', quality: 0.8 },
         html2canvas: { scale: 4 },
         jsPDF: { orientation: 'portrait' }
     };
