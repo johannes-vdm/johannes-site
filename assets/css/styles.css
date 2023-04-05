@@ -225,6 +225,16 @@ body {
   white-space: nowrap;
 }
 
+.tag {
+  font-size: 0.8rem;
+  margin: auto;
+  border-radius: 12px;
+  padding: 0px 10px;
+  line-height: normal;
+  color: var(--body-color);
+  background-color: var(--text-color)
+}
+
 
 h1,
 h2,
