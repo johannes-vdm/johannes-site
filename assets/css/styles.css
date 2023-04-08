@@ -419,6 +419,10 @@ pre {
   font-size: var(--h1-font-size);
 }
 
+.upper {
+  text-transform: uppercase;
+}
+
 .home__profession {
   font-size: var(--normal-font-size);
   margin-bottom: var(--mb-1);
