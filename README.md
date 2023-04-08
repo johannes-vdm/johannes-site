@@ -2,7 +2,7 @@
 
 ```js
 // Generate PDF:
-window.generateResume();
+window.generateResume(debug = false);
 ```
 
 
