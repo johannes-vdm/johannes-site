@@ -76,7 +76,7 @@ themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme);
     themeButton.classList.toggle(iconTheme);
 
-    syntaxHighlightChecks();
+    // syntaxHighlightChecks();
 
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme());
