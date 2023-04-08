@@ -94,7 +94,7 @@ function removeScale() {
     document.body.classList.remove('scale-cv');
 }
 
-window.generateResume = function () {
+window.generateResume = function (debug = false) {
 
     let areaCv = document.getElementById('area-cv');
 
@@ -112,9 +112,10 @@ window.generateResume = function () {
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
     scaleCv();
 
-    // 2. The PDF is generated
-    html2pdf(areaCv, opt);
-
-    // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    setTimeout(removeScale, 5000);
+    if (!debug) {
+        // 2. The PDF is generated
+        html2pdf(areaCv, opt);
+        // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
+        setTimeout(removeScale, 5000);
+    }
 }
