@@ -603,6 +603,8 @@ pre {
 }
 
 .credly-badge-container {
+  width: 60px;
+  text-align: center;
   display: block;
   margin: auto;
   margin-left: 0;
@@ -640,23 +642,6 @@ pre {
   font-size: var(--h3-font-size);
 }
 
-/* HOBBIES */
-/* .hobbies__container {
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: var(--mb-2);
-} 
-/* 
-.hobbies__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hobbies__icon {
-  font-size: 1.5rem;
-  color: var(--text-accent);
-  margin-bottom: .25rem;
-} */
 
 /* Scroll top */
 .scrolltop {
