@@ -60,6 +60,11 @@ body.dark-theme {
   --text-accent: #6ed0ff;
 }
 
+body.dark-theme,
+body {
+  transition: background-color 1s ease;
+}
+
 /* Button Dark/Light */
 .change-theme {
   position: absolute;
