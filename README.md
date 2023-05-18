@@ -11,3 +11,6 @@ window.generateResume(debug = false);
 - [ ] Add project and achievements.
 - [ ] Auto lengthen when printing.
 - [ ] Convert to react/svelte/astro
+
+# Report
+<img src="./assets/readme/lighthouse-report.png">
