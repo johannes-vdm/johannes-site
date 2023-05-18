@@ -159,6 +159,10 @@ body.scale-cv {
   gap: 1rem;
 }
 
+.scale-cv .tag {
+  font-size: 0.6rem;
+}
+
 .scale-cv .education__time,
 .scale-cv .experience__time {
   padding-right: .5rem;
@@ -235,13 +239,18 @@ body {
 }
 
 .tag {
-  font-size: 0.8rem;
-  margin: auto;
+
+  margin: 3px;
+
+  font-size: 0.7rem;
+  /* margin: auto; */
+
   border-radius: 12px;
-  padding: 0px 10px;
-  line-height: normal;
+  padding: 0px 8px;
+  line-height: 1.3;
+
   color: var(--body-color);
-  background-color: var(--text-color)
+  background-color: var(--text-color);
 }
 
 
@@ -550,6 +559,12 @@ pre {
 .education__title,
 .experience__title {
   font-size: var(--h3-font-size);
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+
 }
 
 .education__studies,
