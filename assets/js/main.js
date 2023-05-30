@@ -94,7 +94,7 @@ function removeScale() {
     document.body.classList.remove('scale-cv');
 }
 
-window.generateResume = function (debug = false) {
+window.generatePDFResume = function (debug = false) {
 
     let areaCv = document.getElementById('area-cv');
 
@@ -102,7 +102,7 @@ window.generateResume = function (debug = false) {
     let opt = {
         margin: 0,
         filename: 'Johannes van der Merwe - CV.pdf',
-        image: { type: 'jpeg', quality: 0.8 },
+        image: { type: 'jpeg', quality: 0.6 },
         html2canvas: { scale: 4 },
         jsPDF: { orientation: 'portrait' }
     };
