@@ -698,6 +698,11 @@ pre {
   /* color: solid var(--text-accent) 2px;; */
 }
 
+/* NOTE REMOVE TERMS */
+.mf-widget-powered {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px) {
