@@ -700,7 +700,7 @@ pre {
 
 /* NOTE REMOVE TERMS */
 .mf-widget-powered {
-  display: none;
+  display: none !important;
 }
 
 /* MEDIA QUERIES */
